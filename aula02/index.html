@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML básico</title>
+</head>
+
+<body><!--Corpo-->
+    <p>Link para o 
+        <a href="#final">final da página</a>.
+    </p>
+
+    <h1 id="topo">Isso é um cabeçalho de nível 1 - Grande</h1>
+    <h2>Isso é um cabeçalho de nível 2 - Médio</h2>
+    <h3>Isso é um cabeçalho de nível 3 - Pequeno</h3>
+    <p>Isso é um parágrafo. E vamos aproveitar para ver 
+        <br>a quebra linha. A quebra linha, 
+        <br>é um BR.
+        <br>Existem outros cabeçalhos menores: h4, h5 e h6.
+    </p>
+
+    <!--
+        Isto é um comentário
+        O comentário HTML não aparece no navegador.
+    -->
+
+    <h2>Listas</h2>
+
+    <!--Há alguns tipos de listas no HTML, abaixo
+    veremos duas-->
+    <!--LISTA ORDENADA (NUMERADA)-->
+    
+    <h3>Lista Ordenada</h3>
+    <ol><!--Ordered List-->
+        <li>Webdesign</li><!--List Item (Item da Lista)-->
+        <li>Linguagem de Programação Web</li>
+        <li>Serviços de Rede e Internet</li>
+    </ol>
+
+    <h3>LIsta não Ordenada</h3>
+        <ul><!-- Unordered List--></ul>
+        <li>Webdesign</li><!--List Item (Item da Lista)-->
+        <li>Linguagem de Programação Web</li>
+        <li>Serviços de Rede e Internet</li>
+    </ul>
+
+    <h3>Citação de frase de um autor</h3>
+    <blockquote>
+        <p>Só sei que nada sei.</p>
+        <cite>Sócrates</cite>
+    </blockquote>
+
+    <h3>Ênfase e Reforço</h3>
+    <p>
+        Existem situações que nós queremos <br>
+        dar um reforço na <strong>palavra</strong><br> 
+        ou <strong>em uma frase completa.</strong><br>
+        O resultado disso é que fica em <strong>negrito.</strong><br>
+    </p>
+
+    <p>
+        Em outras situações, pode-se dar uma <em>Ênfase</em>. <br>
+        A ênfase pode ser dada em uma <em>palabra</em> ou <br>
+        <em>em uma frase</em>. E o resultado disso é que fica <br>
+        em <em>itálico</em>
+    </p>
+
+    <h3>Imagem</h3>
+        <!--Para colocar imagem, precisa-se saber endereço dela,
+        a URL da imagem, seja remoto na internet, seja local
+        no seu computador. Usa-se a TAG igm seguido de src e alt
+        sendo src a URL e alt um texto alternativo.
+        Se estiver usando uma imagem da internet, basta copiar
+        o endereço da imagem e colar dentro de SRC
+        height = altura
+        width = largura
+        -->
+       
+    <img 
+src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/explore-artifact-tiger-camera-car-female-portrait.jpg?w=710&h=710" 
+         alt="Foto de um Tigre de Bengala"
+        height="160"
+        width="180"
+    >
+    <h3>Imagem Local</h3>
+    <img src="images/@anavatte.jpeg" 
+    alt="Foto da Ana Vatte"
+    height="300"
+    width="300">
+    <h4>Ana Laura Vatte</h4>
+    <p>Idade: 15 anos</p>
+    <p>Natural de 
+        <em>Brusque</em>
+        <strong>Santa Catarina</strong>
+    </p>
+
+    <h3>Âncora ou mais popularmente o <em>Link</em> </h3>
+        <!--
+            O link é a essência da linguagem HTML, pois
+            é através dele que se faz o hipertexto, que significa,
+            um grande texto que se conecta a outros.
+            a - tag âncora
+            href - propriedade de referência, o site que será aberto.
+        -->
+    <p>
+        Acesse o meu perfil no
+        <a href="https://github.com/AnaVatte1">
+            Github
+        </a> !
+    </p>
+
+    <!-- Link com alvo (target blank) para nova guia/aba/janela-->
+    <a href="https://anavatte1.github.io" target="_blank"> 
+        <p>Este é um link com alvo para o repositório.
+            Para abrir em uma nova aba.</p>
+    </a>
+    <!-- Link para a própria página
+    1 - Identificar o ponto para onde quer ir 
+    2 - É o link propriamente dito, com # 
+    -->
+    
+    <p id="final">
+        <a href="#topo">Clique aqui</a>
+            para voltar ao início da página.
+    </p>
+   
+<br><br><br><br><br><br>
+</body>
+</html>
