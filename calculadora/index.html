@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!-- Ligação entre os arquivos -->
+    <link rel="stylesheet" href="./css/estilo.css"> 
+</head>
+<body>
+     <!--Cabeçalho-->
+   <header>   
+    <h1>Uso do Chrome Dev Tools</h1>
+    <p>
+        Depurar o código significa encontrar erros.<br>
+        No navegador pressione a tecla F12.
+    </p>
+</header>
+
+<!--Parte principal-->
+    <main class="container">
+        <input type="text" name="num1" id="num1" autofocus tabindex="1">
+        <input type="text" name="num2" id="num2" tabindex="2">
+        <button type="submit" id="btnSomar" tabindex="3">
+           Somar num1 + num2
+        </button>
+
+        <button type="submit" id="btnSubtrair" tabindex="4">
+            Subtrair <br> num1 - num2
+        </button>
+
+        <button type="submit" id="btnMultiplicar" tabindex="5">
+            Multiplicar <br> num1 x num2
+        </button>
+
+        <button type="submit" id="btnDividir" tabindex="6">
+            Dividir <br> num1 ÷ num2
+        </button>
+        
+        <p class="resposta">Resultado da operação</p>
+    </main>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
