@@ -1,68 +1,54 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
 body {
-    background-color: burlywood;
-    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #dd8d14;
 }
-
-header {
-    background-color: azure;
-    border: 3px ridge blueviolet;
-    border-radius: 5px;
-    width: 400px;
-    margin: 20px auto; /*Centralizando a caixa*/
-    text-align: center; /*Cantralização do texto*/
-    box-shadow: 0 0 5px lightcoral;
+input {
+    margin: 2px;
+    border: none;
+    border-radius: 50px;
 }
- 
-main input {
-    /*Quebra linha e coloco um abaixo do outro*/
-    display: block;
-    margin: 10px;
-    padding: 10px;
-    width: 50px;
-    border-radius: 3px;
-    background-color: darkblue;
-    color: cyan;
-    font-weight: bold; /*Negrito*/
+input[type=text] {
+    width: calc(100% - 4px);
+    height: 40px;
+    background-color: hsl(351, 16%, 59%);
 }
-main button {
-    margin: 10px;
-    border: 1px solid darkblue;
-    border-radius: 3px;
-    cursor: pointer; /*Mudança do cursor do mouse*/
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: 18px;
-    width: 220px;
-    padding: 6px 10px;
-    /*Sombra interna*/
-    box-shadow: inset 0 0 5px lightskyblue;
-    transition: 0.3s;
- }
- /*Ao passar o mouse por cima*/
- main button:hover {
-    /*Sombra externa*/
-    box-shadow: 0 0 5px darkblue;
-    text-shadow: 0 0 3px lightskyblue;
-    transition: 0.3s;
+input[type=button] {
+    width: 100px;
+    height: 100px;
+    transition: ease 0.2s;
+    cursor: pointer;
+    background-color: peachpuff;
 }
-
-/*Estilização da classe Resposta*/
-.resposta {
-   /*Centralizando o elemento na página*/
-   margin: 10px auto;
-   padding: 5px;
-   text-align: center;
-   border: 1px dotted white;
-   width: fit-content;
+div#calculadora {
+    box-shadow: 0 0 20px black;
 }
-.errada {
-   background-color: red;
-   color: yellow;
-   outline: 2px double orange;
+div#calculadora div {
+    display: flex;
 }
-.certa {
-   background-color: palegreen;
-   color: blue;
-   outline: 2px double greenyellow;
+div#calculadora div input:nth-child(4) {
+    background: #4c4cc4;
+}
+div#quarta input:nth-child(1) {
+    background: #f11a1a;
+}
+div#quarta input:nth-child(3) {
+    background: #4c4cc4;
+}
+input[type=button]:hover {
+    filter: brightness(50%);
+}
+input[type=button]:active {
+    transform: scale(0.9);
 }
