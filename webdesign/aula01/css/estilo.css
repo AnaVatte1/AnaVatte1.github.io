@@ -1,0 +1,71 @@
+
+/*Corpo da página principal*/
+body#principal {
+    background-color: indigo;
+    color: cyan;
+}
+
+#principal a {
+    color: white;
+    text-decoration: none; /*Tira o sublinhado*/
+    cursor: pointer; /*Muda o cursor do link*/
+ }
+  
+ #principal a:hover { /*Ao passar o mouse por cima*/
+    color: yellow;
+}
+ 
+/*Corpo da página principal*/
+body#principal {
+    background-color: indigo;
+    color: cyan;
+}
+  
+/*Corpo da página pg01*/
+ body#pg01 {
+    background-color: red;
+    color: white;
+}
+  
+/*Corpo da página pg02*/
+ body#pg02 {
+    background-color: green;
+    color: greenyellow;
+}
+  
+/*Corpo da página pg03*/
+ body#pg03 {
+    background-color: blue;
+    color: deepskyblue;
+}
+
+/*Configurações gerais - para todos os arquivos*/
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto; /*alinhando ao centro*/
+    transition: all 0.3s;
+    border: 5px solid white;   
+}
+img:hover {
+    width: 320px;
+    box-shadow: 0 0 20px black;
+}
+
+footer a{
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 5px;
+    text-decoration: none;
+    color: black !important;
+    border: 2px outset aliceblue;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+  
+ footer a:hover {
+    border: 2px inset gainsboro;
+    background-color: gainsboro;
+}
+ 
