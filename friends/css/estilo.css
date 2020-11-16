@@ -1,0 +1,78 @@
+/*Corpo da página principal*/
+body#principal {
+    background-color: red;
+    color: yellow;
+ }
+ 
+ /*Corpo da página chandler*/
+ body#chandler {
+    background-color: lightyellow;
+    color: blue;
+ }
+  
+ /*Corpo da página joey*/
+ body#joey {
+    background-color: lightsteelblue;
+    color: red;
+ }
+  
+ /*Corpo da página monica*/
+ body#monica {
+    background-color: lightcoral;
+    color: yellow;
+ }
+  /*Corpo da página phoebe*/
+  body#phoebe {
+    background-color: lightyellow;
+    color: blue;
+ }
+  
+ /*Corpo da página rachel*/
+ body#rachel {
+    background-color: lightblue;
+    color: red;
+ }
+  
+ /*Corpo da página ross*/
+ body#ross {
+    background-color: lightcoral;
+    color: yellow;
+ }
+ #principal a {
+    color: lightslategrey;
+    text-decoration: none; /*Tira o sublinhado*/
+    cursor: pointer; /*Muda o cursor do link*/
+ }
+  
+ #principal a:hover { /*Ao passar o mouse por cima*/
+    color: black;
+ }
+ /*Configurações gerais - para todos os arquivos*/
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto; /*alinhando ao centro*/
+    transition: all 0.3s;
+    border: 5px solid white;   
+ }
+ img:hover {
+    width: 320px;
+    box-shadow: 0 0 20px black;
+ }
+ footer a{
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: 2px outset aliceblue;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+ }
+  
+ footer a:hover {
+    border: 2px inset gainsboro;
+    background-color: gainsboro;
+ }
+  
