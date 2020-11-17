@@ -1,0 +1,13 @@
+article img {
+    height: 25em;
+}
+.card {
+    margin-bottom: 20px;
+    transition: 300ms;
+}
+.card:hover {
+    box-shadow: 0 0 10px gray;
+}
+.card-body h3 {
+    margin-top: 15px;
+}
